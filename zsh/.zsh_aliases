@@ -1,0 +1,1 @@
+alias brewupdate="brew update -v && brew upgrade -v && brew cleanup -s -v && brew doctor -v && brew missing"
