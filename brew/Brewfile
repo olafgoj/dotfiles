@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
+brew "htop"
 brew "node"
 brew "python@3.8"
 brew "stow"
