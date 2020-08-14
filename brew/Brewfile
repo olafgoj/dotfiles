@@ -1,0 +1,8 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+brew "node"
+brew "python@3.8"
+brew "stow"
+brew "tree"
+brew "youtube-dl"
+brew "z"

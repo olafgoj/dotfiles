@@ -101,3 +101,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Read aliases file
 source $HOME/.zsh_aliases
+
+# z command
+. /usr/local/etc/profile.d/z.sh
