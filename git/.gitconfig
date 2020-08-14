@@ -1,0 +1,18 @@
+[user]
+	name = Olaf Goj
+    username = olafgoj
+	email = olaf@goj.email
+
+[color]
+    ui = auto
+
+[alias]
+    ci = commit
+    st = status
+    co = checkout
+    oneline = log --pretty=oneline
+    br = branch
+    la = log --pretty="format:%ad %h (%an): %s" --date=short
+
+[help]
+    autocorrect = 1
