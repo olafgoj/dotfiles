@@ -22,3 +22,13 @@ export GOPATH=$HOME/go
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/olafgoj/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/olafgoj/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/olafgoj/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/olafgoj/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# chruby
+source /usr/local/opt/chruby/share/chruby/auto.sh
+. /usr/local/opt/chruby/share/chruby/chruby.sh

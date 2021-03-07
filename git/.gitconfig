@@ -16,3 +16,5 @@
 
 [help]
     autocorrect = 1
+[core]
+	autocrlf = input
